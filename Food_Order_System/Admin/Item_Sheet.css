@@ -1,0 +1,34 @@
+﻿body {
+    background-image: url('../Images/image1.jpg');
+    background-size: cover;
+}
+h1{
+    text-align:center;
+}
+.container{
+    margin-left:190px;
+}
+.lbl{
+    font-weight:400;
+    font-size:20px;
+    color:black;
+}
+.row{
+    margin-top:6px;
+    margin-bottom:6px;
+}
+.btn{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:30px;
+    height:50px;
+    width:90px;
+    font-size:19px;
+
+}
+.q{
+    text-align:center;
+}
+.p{
+    margin-top:30px;
+}

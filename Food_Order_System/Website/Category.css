@@ -1,0 +1,103 @@
+﻿body {
+    background-color: #333333;
+}
+
+h1 {
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+}
+
+.tag {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0 50px;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 0 0 35px #ff0000;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.outer {
+    margin: 0 50px;
+    background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+}
+
+.outer1 {
+    margin: 0 500px;
+    margin-top: -200px;
+    background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+}
+
+.button {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.outer button {
+    background: #111;
+    color: #f2f2f2;
+}
+
+.outer button, outer span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-190%,-120%);
+}
+
+.outer1 button {
+    background: #111;
+    color: #f2f2f2;
+}
+
+.outer1 button, outer1 span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(310%,-110%);
+}
+
+.outer button {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.outer1 button {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.outer {
+    animation: rotate 0.5s linear infinite;
+}
+
+.outer1 {
+    animation: rotate 0.5s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
